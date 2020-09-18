@@ -26,6 +26,7 @@ import java.util.Scanner;
  *              选取最小的dist[j]的j为current，mark[j]=true
  *  直接返回dist结果即为所有最短路径
  *
+ * 参考：https://blog.csdn.net/qq_38410730/article/details/79587768
  */
 public class ShortestPathDijkstra {
     public static void main(String[] args){
