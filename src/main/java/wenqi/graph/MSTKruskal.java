@@ -8,7 +8,7 @@ import java.util.List;
  * Kruskal Algorithm: Edge expanding
  * Kruskal算法，使用边扩展
  * 存储：
- *  1.边集合，2. 节点数量nodeSize，3并查集数组union,4.结果集TreeResult
+ *  1.边集合（需要对所有边排序并遍历），2. 节点数量nodeSize，3并查集数组union,4.结果集TreeResult
  * 算法过程：
  *  1.将所有的边edges按从小到大排列，并初始化并查集union
  *  2.遍历edges至 edges末尾 或者 TreeResult.size=node的数量

@@ -8,7 +8,8 @@ import java.util.PriorityQueue;
  * Prime Algorithm, Node splaying method
  * Prime算法，使用节点进行扩展
  * 存储：
- *  1.需要邻接链表存储以及节点数量nodeSize，node->相关的Edge（u,v,weight）,如果node用0-n代替的话，可以用Edge[]数组存储
+ *  1.需要邻接链表存储以及节点数量nodeSize，node->相关的Edge（u,v,weight）,
+ *      如果node用0-n代替的话，可以用Edge[]数组存储，需要在获取到一个节点时获取所有相关的边
  *  2.是否已经在最小生成树中的标记mark[]
  *  3.待选的边的优先队列-小根堆PriorityQueue heap
  *  4.输出：结果Edge集TreeResult
