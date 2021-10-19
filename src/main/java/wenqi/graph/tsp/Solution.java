@@ -1,4 +1,4 @@
-package wenqi.tsp;
+package wenqi.graph.tsp;
 
 import java.util.Scanner;
 
